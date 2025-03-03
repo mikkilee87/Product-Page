@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link href="style.css" type="text.css" rel="stylesheet">
         <meta charset="UTF-8">
-        <title>ArtbyKurisu Etsy Page</title>
+        <title id="title-name">ArtbyKurisu Etsy Page</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
-            <h1>Painted Shoes</h1>
-            <img src="https://live.staticflickr.com/2228/1794290337_406ad932c5_h.jpg" alt="Painted shoes" height="240" width="320">
+        <header class="header">
+            <h1 id="painted-shoes">Painted Shoes</h1>
+            <img src="https://live.staticflickr.com/2228/1794290337_406ad932c5_h.jpg" alt="Painted shoes" height="240" width="320" class="image">
         </header>
             <section>
                 <h2 id="Description">Description</h2>
@@ -20,18 +20,18 @@
                     I am unable to offer refunds if the sizing is incorrect.
                 </p>
             </section>
-            <form>
+            <form class="button">
                 <button id="add-to-cart-button">Add to cart</button>
             </form>
             <section>
-                <table>
+                <table class="table">
                     <thead>
-                    <tr>
-                        <th>Shoe Type</th>
-                        <th>Shoe Size</th>
-                        <th>Number of Items to Ship</th>
-                        <th>Next Action</th>
-                    </tr>
+                        <tr class="primary">
+                            <th>Shoe Type</th>
+                            <th>Shoe Size</th>
+                            <th>Items to Ship</th>
+                            <th>Next Action</th>
+                        </tr>
                     </thead>
                     <tbody>
                         <tr>
@@ -56,7 +56,7 @@
                 </table>
             </section>
             <footer>
-                <p>&copy;2025 ArtbyKurisu. All rights reserved</p>
+                <p id="copyright">&copy;2025 ArtbyKurisu. All rights reserved</p>
             </footer>
     </body>
 </html>

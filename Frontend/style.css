@@ -1,2 +1,30 @@
-#Description {}
-#add-to-cart-button {color:blue; text-align:center;}
+.header {
+    text-align: center;
+}
+
+.image {
+    wdith: 400px;
+    height: 400px;
+}
+
+.button {
+    text-align: center;
+}
+
+#add-to-cart-button {
+    background-color: rgba(6, 129, 245, 0.815);
+    color: white; 
+    text-align: center;
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+.primary {
+    background-color: lightgray;
+}
+
+#copyright {
+    text-align: center;
+}
