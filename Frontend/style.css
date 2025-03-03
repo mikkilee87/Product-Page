@@ -1,4 +1,4 @@
-.header {
+#painted-shoes{
     text-align: center;
 }
 
@@ -15,14 +15,26 @@
     background-color: rgba(6, 129, 245, 0.815);
     color: white; 
     text-align: center;
+    border: none;
+    padding: 5px;
+    border-radius: 8px;
 }
 
-.table {
+.styled-table {
     border-collapse: collapse;
+    margin: 25px 0;
+    border-spacing: 30px;
+    min-width: 400px;
+    text-align: center;
 }
 
-.primary {
+.styled-table th, td {
+    padding: 10px;
+}
+
+.styled-header {
     background-color: lightgray;
+    text-align: center;
 }
 
 #copyright {
