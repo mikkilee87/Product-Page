@@ -3,11 +3,11 @@
 }
 
 .image {
-    wdith: 400px;
+    width: 400px;
     height: 400px;
 }
 
-.button {
+.add-to-cart {
     text-align: center;
 }
 
