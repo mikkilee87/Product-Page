@@ -7,6 +7,10 @@
     height: 400px;
 }
 
+.website {
+    background-color: lightyellow;
+}
+
 .add-to-cart {
     text-align: center;
 }
@@ -18,6 +22,11 @@
     border: none;
     padding: 5px;
     border-radius: 8px;
+}
+
+#add-to-cart-button:hover {
+    background-color: rgb(3, 60, 184);
+    transition: 0.7s;
 }
 
 .styled-table {
