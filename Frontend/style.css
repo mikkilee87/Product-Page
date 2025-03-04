@@ -2,15 +2,26 @@
     text-align: center;
 }
 
+.content {
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+}
+
 .image {
     width: 400px;
     height: 400px;
 }
 
 body {
-    background-color: lightyellow;
+    background-color: #FFF0E5;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.description-of-work {
+    text-align: left;
 }
 
 .add-to-cart {
@@ -44,10 +55,11 @@ body {
 }
 
 .styled-header {
-    background-color: lightgray;
+    background-color: rgb(231, 243, 196);
     text-align: center;
 }
 
 #copyright {
     text-align: center;
+    font-size: 10px;
 }
