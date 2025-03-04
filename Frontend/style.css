@@ -6,11 +6,12 @@
     background-color: white;
     padding: 10px;
     margin: auto;
+    text-align: center;
 }
 
-.image {
-    width: 400px;
+.sesame-street{
     height: 400px;
+    weight: 400px;
 }
 
 body {
