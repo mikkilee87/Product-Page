@@ -1,5 +1,6 @@
 #painted-shoes{
     text-align: center;
+    font-family: 'Sour Gummy', sans-serif;
 }
 
 .content {
@@ -19,6 +20,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    }
+#description {
+    font-family: 'Sour Gummy', sans-serif;
 }
 
 .description-of-work {
